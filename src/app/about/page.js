@@ -15,9 +15,8 @@ export default function About() {
           {/* About Text */}
           <div className="flex-1">
             <h1 className="text-4xl font-bold mb-6">Danish Putra Devananda</h1>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              I'm a passionate student with an interest in information systems & UI Building 
-              in computer engineering. I love teaching and also creating something new in society for everyone.
+            <p className="text-gray-300 leading-relaxed mb-4 text-justify">
+              Hi, you can call me Danish or Devan. I'm currently an undergraduate student at UI majoring in Computer Engineering. I love learning and also creating something that is related to computers.
             </p>
             <p className="text-gray-400 text-sm">
               Contact me for any inquiries

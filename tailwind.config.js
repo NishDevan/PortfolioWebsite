@@ -1,20 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/app/**/*. {js,jsx,ts,tsx,mdx}',
-    './src/pages/**/*.{js,jsx,ts,tsx,mdx}',
-    './src/components/**/*.{js,jsx,ts,tsx,mdx}',
+    './src/**/*.{js,jsx,ts,tsx,mdx}',
   ],
   theme: {
     extend: {
-      colors:  {
+      colors: {
         dark: '#1a1a1a',
-        darker: '#0f0f0f',
-      },
-      fontFamily: {
-        mono: ['Courier New', 'Courier', 'monospace'],
+        darker:  '#0f0f0f',
       },
     },
   },
-  plugins: [],
+  plugins:  [],
 }
