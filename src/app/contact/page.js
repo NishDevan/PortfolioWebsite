@@ -15,25 +15,23 @@ export default function Contact() {
         </div>
 
         {/* Contact Information */}
-        <div className="space-y-6 text-left bg-dark p-8 rounded-lg">
+        <div className="space-y-6 text-left bg-dark p-8 rounded-lg text-center">
           <div>
             <h3 className="text-gray-400 mb-2">Email</h3>
-            <p className="text-lg">devan@example.com</p>
-          </div>
-          <div>
-            <h3 className="text-gray-400 mb-2">Phone</h3>
-            <p className="text-lg">+62 123 4567 8900</p>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=danishputradevananda1@gmail.com" className="text-lg text-blue-400 hover:text-blue-300">
+              danishputradevananda1@gmail.com
+            </a>
           </div>
           <div>
             <h3 className="text-gray-400 mb-2">LinkedIn</h3>
-            <a href="#" className="text-lg text-blue-400 hover:text-blue-300">
-              linkedin.com/in/devan
+            <a href="https://www.linkedin.com/in/danishpd/" className="text-lg text-blue-400 hover:text-blue-300">
+              linkedin.com/in/danishpd/
             </a>
           </div>
           <div>
             <h3 className="text-gray-400 mb-2">GitHub</h3>
-            <a href="#" className="text-lg text-blue-400 hover:text-blue-300">
-              github.com/devan
+            <a href="https://github.com/NishDevan" className="text-lg text-blue-400 hover:text-blue-300">
+              github.com/NishDevan
             </a>
           </div>
         </div>
